@@ -281,6 +281,8 @@ a.cart-in{
 /*----*/
 .top-nav ul li{
 	display:inline-block;
+	background-color:lightblue;
+
 }
 .top-nav ul li a{
 	text-decoration:none;
@@ -299,6 +301,7 @@ a.cart-in{
 	content: url(../images/menu.png)no-repeat 0px 0px;
 	cursor:pointer;	
 	width:100%;
+	background-color: #000;
 }
 .top-nav span.menu{
 	display: none;
