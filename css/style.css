@@ -1519,11 +1519,15 @@ ul.social-ic {
 .search-top {
 	display: none;
 }
-.header-grid ul li.in-up{
+.header-grid ul li .in-up{
+	position:relative;
 	display:none;
+	left: 0px;
+	top:5%;
+	background:blue;
 }
 .dropdown .carat {
-	top: 31%;
+	top:31%;
 }
 .price h2 {
 	font-size: 1em;
