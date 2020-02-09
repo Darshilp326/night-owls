@@ -456,6 +456,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	width:100%;
 	position: absolute;
 	bottom: 0;
+	font-size: 40px;
 }
 .banner-para p{
 	font-size:1.5em;
@@ -587,6 +588,16 @@ span.corn-in{
 	margin: 0em auto;
 	font-weight: 200;
 	letter-spacing: 3px;
+}
+.price{
+	text-align: center;
+	background-color: #000;
+}
+.agri{
+	text-align: center;
+	background-color: #000;
+	font-size: 40px;
+	color: #EEE;
 }
 /*--about--*/
 .banner-in {
@@ -1518,6 +1529,12 @@ ul.social-ic {
 @media(max-width:480px){
 .search-top {
 	display: none;
+}
+.search-in{
+	position: absolute;
+	text-align: left;
+	left: 20%;
+	top: 20%;
 }
 .header-grid ul li .in-up{
 	position:relative;
